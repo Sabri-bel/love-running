@@ -1,0 +1,29 @@
+/*
+wildcard selector
+add asterisc for override the default settings of the browser
+it will apply to ALL the selectors
+MUST be at the very top
+*/
+/*border box for apply the box modification to the border as well*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*header style*/
+header {
+    background-color: aqua;
+}
+
+/*main style*/
+main {
+    background-color: pink;
+}
+
+/*footer style*/
+footer {
+    background-color: blue;
+}
