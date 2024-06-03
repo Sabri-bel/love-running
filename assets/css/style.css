@@ -118,7 +118,7 @@ footer {
 
 /* media query for tablets and larger screen (768px and more) the rule below will apply only to larger screens and it MUST be at the bottom of the css file*/
 @media screen and (min-width: 768px) {
-    /*header*/
+/*header*/
     nav {
         /*revert all the settings for the hide/view display header set for mobile*/
         display: block;
@@ -141,4 +141,15 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    /*make the logo bigger for larger screen*/
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0,5rem;
+    }
+    /*push the main content down to accomodate larger screen- hidden from the bigger header*/
+/*main*/
+   main {
+     margin-top: 79px;
+   }
 }
