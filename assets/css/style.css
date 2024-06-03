@@ -103,6 +103,7 @@ nav {
 main {
     background-color: pink;
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /*footer style*/
