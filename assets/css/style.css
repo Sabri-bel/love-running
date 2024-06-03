@@ -36,8 +36,17 @@ header {
     /*add the shadow and look like slightly detached from the background*/
     box-shadow: 0 2px 2px #3a3a3a;
 }
+/*remove the default style for the a and apply to all the descendent of the header*/
+header a {
+    text-decoration: none;
+    /*color will be inherited from the body*/
+    color: inherit;
+}
  h1 {   
     font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 /*main style*/
