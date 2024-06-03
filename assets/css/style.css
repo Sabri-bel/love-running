@@ -7,11 +7,12 @@ add asterisc for override the default settings of the browser
 it will apply to ALL the selectors
 MUST be at the very top
 */
-/*border box for apply the box modification to the border as well*/
+
 
 * {
     padding: 0;
     margin: 0;
+    /*border box for apply the box modification to the border as well*/
     box-sizing: border-box;
 
 }
@@ -25,6 +26,7 @@ body {
     color: #3a3a3a;
     font-family: Lato, sans-serif;
 }
+
 /*header style*/
 header {
     background-color: #ffffff;
@@ -41,7 +43,7 @@ header {
     align-items: baseline;
     justify-content: space-between;
 }
-/*remove the default style for the a and apply to all the descendent of the header*/
+/*remove the default style for the <a> and apply to all the descendent of the header*/
 header a {
     text-decoration: none;
     /*color will be inherited from the body*/
@@ -79,12 +81,13 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem; 
-    /*make the menu hidden unless the customer click on it*/
+    /*make the menu hidden unless the customer click on it with pseudoclass*/
     display: none;
-    /*it says that the top of the element -pseudoclass nav:checked - should start at the bottom of the parent -nav*/
+    /*it says that the top of the child element -pseudoclass nav:checked - should start at the bottom of the parent -nav*/
     top: 100%
 }
 /* add the pseudoclass to the checkbox for hidden/show the menu*/
+/*tilde means that it apply only to the nearest nav*/
 #nav-toggle:checked~nav {
       display: block;  
 }
@@ -94,6 +97,7 @@ nav {
     display: none
 }
 
+/*enlarge the content of the label - it will be an icon later*/
 .nav-toggle-label {
     font-size: 2rem;
 }
@@ -103,6 +107,7 @@ nav {
 main {
     background-color: pink;
     flex: 1 0 auto;
+    /*move the main conntent under the headers*/
     margin-top: 47px;
 }
 
