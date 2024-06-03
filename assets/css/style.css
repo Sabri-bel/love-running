@@ -153,3 +153,10 @@ footer {
      margin-top: 79px;
    }
 }
+/*media queries for laptop and screensize higher than 992px*/
+@media and (min-width: 992px) {
+    #menu a:hover  {
+        border-bottom: solid 1px #3a3a3a;
+    }
+    
+}
