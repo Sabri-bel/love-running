@@ -55,6 +55,14 @@ header a {
     list-style-type: none;
 }
 
+/* modified the vertical space between the list item*/
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: solid 1px #3a3a3a;
+}
 /*main style*/
 main {
     background-color: pink;
