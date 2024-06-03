@@ -35,6 +35,11 @@ header {
     width: 100%;
     /*add the shadow and look like slightly detached from the background*/
     box-shadow: 0 2px 2px #3a3a3a;
+    /*show in a row*/
+    display: flex;
+    /*make sure it will show in a vertical row*/
+    align-items: baseline;
+    justify-content: space-between;
 }
 /*remove the default style for the a and apply to all the descendent of the header*/
 header a {
@@ -60,9 +65,40 @@ header a {
     margin-bottom: 1em;
 }
 
+/*add a visual hint about the navigation*/
 .active {
     border-bottom: solid 1px #3a3a3a;
 }
+
+/*dropdown menu of the header*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px #3a3a3a;
+    /*make sure that the box take all the available space*/
+    width: 100%;
+    left: 0;
+    padding: 0 1rem; 
+    /*make the menu hidden unless the customer click on it*/
+    display: none;
+    /*it says that the top of the element -pseudoclass nav:checked - should start at the bottom of the parent -nav*/
+    top: 100%
+}
+/* add the pseudoclass to the checkbox for hidden/show the menu*/
+#nav-toggle:checked~nav {
+      display: block;  
+}
+
+/*hide the checkbox */
+#nav-toggle {
+    display: none
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
 /*main style*/
 main {
     background-color: pink;
