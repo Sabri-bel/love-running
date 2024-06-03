@@ -1,5 +1,8 @@
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /*
-wildcard selector
+wildcard selector 
 add asterisc for override the default settings of the browser
 it will apply to ALL the selectors
 MUST be at the very top
@@ -12,6 +15,7 @@ MUST be at the very top
     box-sizing: border-box;
 
 }
+
 /*general style rules*/
 
 body {
@@ -19,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
+    font-family: Lato, sans-serif;
 }
 /*header style*/
 header {
@@ -35,3 +40,4 @@ main {
 footer {
     background-color: blue;
 }
+
