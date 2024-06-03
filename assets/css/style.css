@@ -116,3 +116,29 @@ footer {
     background-color: blue;
 }
 
+/* media query for tablets and larger screen (768px and more) the rule below will apply only to larger screens and it MUST be at the bottom of the css file*/
+@media screen and (min-width: 768px) {
+    /*header*/
+    nav {
+        /*revert all the settings for the hide/view display header set for mobile*/
+        display: block;
+        position: relative;
+        box-shadow: none;
+        /*allow the content to push it to the right using flex styles applied before*/
+        width: fit-content;
+        /*padding right so the content will not stick to the end of the screen*/
+        padding-right: 1rem;
+    }
+    /*show the nav menu in the same row*/
+    #menu {
+        display: flex;
+    }
+    /*add some space between the li items when shown in a single row*/
+    #menu > li {
+        padding-left: 1rem;
+    }
+    /*hide the checkbox itself and the label for the dropdown menu no longer needed*/
+    .nav-toggle-label {
+        display: none;
+    }
+}
