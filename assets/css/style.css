@@ -48,6 +48,12 @@ header a {
     letter-spacing: 2px;
     color: #252525;
 }
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    /*remove the bullet point from the list in the nav*/
+    list-style-type: none;
+}
 
 /*main style*/
 main {
