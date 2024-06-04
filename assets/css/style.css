@@ -113,7 +113,7 @@ main {
 
 /*footer style*/
 footer {
-    background-color: blue;
+    background-color: orange;
 }
 
 /* media query for tablets and larger screen (768px and more) the rule below will apply only to larger screens and it MUST be at the bottom of the css file*/
