@@ -112,8 +112,22 @@ main {
 }
 
 /*footer style*/
-footer {
-    background-color: orange;
+#social-media {
+    text-align: center;
+    /*add some space in the top*/
+    padding: 20px 0;
+    /*distribute the icon all over vertically*/
+    display: flex;
+    justify-content: space-evenly;
+    /*remove the bullet point*/
+    list-style-type: none;
+
+}
+#social-media i {
+    padding: 5%;
+    font-size: 160%;
+    color: #3a3a3a;
+
 }
 
 /* media query for tablets and larger screen (768px and more) the rule below will apply only to larger screens and it MUST be at the bottom of the css file*/
