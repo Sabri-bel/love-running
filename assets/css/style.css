@@ -114,7 +114,8 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background-color: lightgreen;
+    /*no repetition, centered horizontally and vertically and sized itself witout distortingv(cover)*/
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
 }
 
 /*footer style*/
