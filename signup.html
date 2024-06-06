@@ -11,19 +11,40 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!--add header section-->
     <header>
+        
         <a href="index.html">
             <h1 id="logo">Love Running</h1>
         </a>
+    <!--checkbox below will be used for the hidden navigation in the mobile view menu using the pseudoclass-->
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <!--label will be an icon that user will click for hide/show menu in the mobile view-->
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <!--navigation menu-->
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html" class="active">Signup</a></li>
+                <li><a href="" class="active">Signup</a></li>
             </ul>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>    
+    <!-- main section-->
+    <main>Main
+       
+    </main>
+    <!-- footer section-->
+    <footer>
+        <!--add the social media contact in the footer-->
+        <ul id="social-media">
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"  aria-label="follow us on facebook (open link in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="follow us on Instagram (open link in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="follow us on youtube (open link in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="follow us on twitter (open link in a new tab)"><i class="fa-brands fa-square-twitter"></i></a></li>
+        </ul>
+    </footer>
+    <!--font awesome link for icons-->
+    <script src="https://kit.fontawesome.com/81dea6f6c8.js" crossorigin="anonymous"></script>
 </body>
 </html>
