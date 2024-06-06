@@ -105,10 +105,16 @@ nav {
 
 /*main style*/
 main {
-    background-color: pink;
     flex: 1 0 auto;
-    /*move the main conntent under the headers*/
+    /*move the main content under the headers*/
     margin-top: 47px;
+}
+
+/*add the hero image as background in a specific section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 
 /*footer style*/
