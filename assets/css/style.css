@@ -26,6 +26,12 @@ body {
     color: #3a3a3a;
     font-family: Lato, sans-serif;
 }
+h1, h2, h3 {   
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 /*header style*/
 header {
@@ -49,12 +55,7 @@ header a {
     /*color will be inherited from the body*/
     color: inherit;
 }
- h1 {   
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+ 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -116,6 +117,28 @@ main {
     width: 100%;
     /*no repetition, centered horizontally and vertically and sized itself witout distortingv(cover)*/
     background: url(../images/hero-image.webp) no-repeat center center/cover;
+    /*position relative in relation to the cover text below*/
+    position: relative;
+}
+#cover-text {
+    /*rgba is rgb but with the opacity option semi-transparent*/
+    background-color: rgba(241, 109, 107, 0.7);
+    font-size: 130%;
+    /*position absolute*/
+    position: absolute;
+    /*this value for the bottom position and doesnt stick directly to the bottom*/
+    bottom: 30px;
+    /*the following value are for the breating space not sticking directly to the edge of the screen*/
+    padding-left: 10px;
+    padding-top: 40px;
+
+    min-height: 200px;
+    /*width for not covering the entire width of the screen*/
+    width: 80%;
+}
+/*color set only for the direct child of the id*/
+#cover-text > h2, #cover-text >h3 {
+    color: #ffffff
 }
 
 /*footer style*/
@@ -172,6 +195,11 @@ main {
 /*main*/
    main {
      margin-top: 79px;
+   }
+   /*background image and text*/
+   #cover-text {
+    width: 300px;
+    right: 50px;
    }
 }
 /*media queries for laptop and screensize higher than 992px*/
