@@ -159,6 +159,30 @@ main {
     color: #3a3a3a;
 
 }
+#reason {
+    width: 90%;
+    margin: 20px auto;
+   }
+
+   #reason h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+   }
+   hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+   }
+   
+
+   #benefit-physical > div, #benefit-mental > div {
+    margin-bottom: 20px;
+    line-height: 20px;
+   }
+   #benefit p {
+     padding: 0 20px;
+   }
+
 
 /* media query for tablets and larger screen (768px and more) the rule below will apply only to larger screens and it MUST be at the bottom of the css file*/
 @media screen and (min-width: 768px) {
@@ -201,7 +225,9 @@ main {
     width: 300px;
     right: 50px;
    }
+  
 }
+
 /*media queries for laptop and screensize higher than 992px*/
 @media screen and  (min-width: 992px) {
     #menu a:hover  {
