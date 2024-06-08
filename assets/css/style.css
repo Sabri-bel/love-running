@@ -140,6 +140,21 @@ main {
 #cover-text > h2, #cover-text >h3 {
     color: #ffffff
 }
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    background: url(../images/reasons-image.webp) no-repeat top center / cover;
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*footer style*/
 #social-media {
