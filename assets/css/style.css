@@ -244,6 +244,19 @@ main {
     width: 300px;
     right: 50px;
    }
+   #benefit-mental, #benefit-physical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   #benefit-mental>div, #benefit-physical>div {
+    width: 75%;
+
+   }
+   #benefit-mental > div {
+    align-self: flex-end;
+    align-items: end;
+   }
   
 }
 
