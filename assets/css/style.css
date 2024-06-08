@@ -277,12 +277,16 @@ main {
     #benefit > div {
         flex: 1;
     }
+    /*order of the image 0 means just after the physical and before mental (flex set as row)
+    same row all the elements*/
     #benefit-image {
         order: 0;
     }
+    /*order 1 goes after order 0 in the same row*/
     #benefit-mental {
         order: 1;
         }
+    /*arrange the content near the photos*/
     #benfit-mental > div {
         align-self: flex-start;
     }
