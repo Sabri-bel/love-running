@@ -244,6 +244,7 @@ main {
     width: 300px;
     right: 50px;
    }
+   /*modified layout mental in a side and physical in the other*/
    #benefit-mental, #benefit-physical {
     display: flex;
     flex-direction: column;
@@ -266,4 +267,26 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
     
+}
+/*media queries for laptop and screen bigger than 1200px*/
+@media screen and (min-width: 1200px) {
+    #benefit {
+        display: flex;
+        flex-direction: row;
+    }
+    #benefit > div {
+        flex: 1;
+    }
+    #benefit-image {
+        order: 0;
+    }
+    #benefit-mental {
+        order: 1;
+        }
+    #benfit-mental > div {
+        align-self: flex-start;
+    }
+    #benefit-physical > div {
+        align-self: flex-end;
+    }
 }
