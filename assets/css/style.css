@@ -182,7 +182,13 @@ main {
    #benefit p {
      padding: 0 20px;
    }
+/*add the dublin city image with the text */
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
 
+}
 
 /*footer style*/
 #social-media {
