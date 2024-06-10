@@ -235,6 +235,15 @@ main {
 
 }
 
+/*media query for larger mobile screen or landscape mode */
+@media screen and (min-width: 576px) {
+    /*define the number of columns in landscape mode and remove the gap between columns*/
+   #gallery { column-count: 2;
+    column-gap: 0;
+    }
+    
+}
+
 /* media query for tablets and larger screen (768px and more) the rule below will apply only to larger screens and it MUST be at the bottom of the css file*/
 @media screen and (min-width: 768px) {
 /*header*/
@@ -290,6 +299,10 @@ main {
     align-self: flex-end;
     align-items: end;
    }
+   /*adjust the gallery page for larger screen*/
+   #gallery {
+    column-count: 3;
+   }
   
 }
 
@@ -297,6 +310,10 @@ main {
 @media screen and  (min-width: 992px) {
     #menu a:hover  {
         border-bottom: 1px solid #3a3a3a;
+    }
+    /*adjust the gallery page for larger screen*/
+    #gallery {
+        column-count: 4;
     }
     
 }
