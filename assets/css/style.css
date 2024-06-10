@@ -205,7 +205,17 @@ main {
     /*override the default color for the h3 in general style*/
     color: #fafafa;
 }
-
+/*style for the gallery page*/
+    /*adapt all the photos to the screen width*/
+#gallery img {
+    width: 100%;
+    /*used for avoid the line height override for alt text*/
+    line-height: 1em;
+}
+#gallery {
+    /*remove the blank line between the photos (photos are considered inline text)*/
+    line-height: 0;
+}
 /*footer style*/
 #social-media {
     text-align: center;
