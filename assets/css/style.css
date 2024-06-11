@@ -216,6 +216,32 @@ main {
     /*remove the blank line between the photos (photos are considered inline text)*/
     line-height: 0;
 }
+/*signup page style*/
+main {
+    display: flex;
+    flex-direction: column;
+}
+#signup {
+    background: url(../images/signup-image.webp) no-repeat 75% center/cover;
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;   
+ 
+}
+#signup-form  h2 {
+    color: #fafafa;
+    padding-bottom: 20px;
+
+
+}
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60 .6);
+    padding: 20px 30px;
+}
+
+
 /*footer style*/
 #social-media {
     text-align: center;
