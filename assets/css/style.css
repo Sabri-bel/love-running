@@ -237,8 +237,27 @@ main {
 }
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60 .6);
+    background-color: rgba(60 60 60 0.6);
     padding: 20px 30px;
+}
+.text-input {
+    color: #fafafa;
+    
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px;
+    margin-top: 20px;
 }
 
 
