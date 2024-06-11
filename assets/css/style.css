@@ -242,7 +242,8 @@ main {
 }
 .text-input {
     color: #fafafa;
-    
+    margin-top: 5px ;
+    margin-bottom: 20px;
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
