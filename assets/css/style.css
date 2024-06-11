@@ -236,8 +236,8 @@ main {
 
 }
 #signup-form {
+    background-color: rgba(60, 60, 60, 0.6);
     color: #ffffff;
-    background-color: rgba(60 60 60 0.6);
     padding: 20px 30px;
 }
 .text-input {
